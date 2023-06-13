@@ -4,18 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a01d0f35-7eba-4c2a-bac2-124973c907b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MonitorApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/qqa/monitor/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="a01d0f35-7eba-4c2a-bac2-124973c907b2" name="Changes" comment="初始化">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/qqa/monitor/conf/ShiroConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/qqa/monitor/conf/Swagger2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/qqa/monitor/conf/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/qqa/monitor/pkg/redis/UserRedisDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/qqa/monitor/pkg/redis/constant/UserConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/qqa/monitor/pkg/redis/util/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/qqa/monitor/pkg/redis/util/RedisUtilImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/qqa/monitor/pkg/shiro/SPBModularRealmAuthenticator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/qqa/monitor/pkg/shiro/SPBModularRealmAuthorizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/qqa/monitor/pkg/shiro/realm/ThirdAccessRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/qqa/monitor/pkg/shiro/realm/UsernamePasswordRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/qqa/monitor/pkg/shiro/token/SPBUsernamePasswordToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/qqa/monitor/pkg/shiro/token/ZJUThirdAccessToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ehcache/ehcache-shiro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MonitorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MonitorApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,16 +69,32 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "File.Encoding"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/cn/qqa/monitor" />
+      <recent name="$PROJECT_DIR$/src/main/java/cn/qqa/monitor/conf" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MonitorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MonitorApplication" />
+      <module name="monitor" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MonitorApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -82,7 +105,19 @@
       <option name="presentableId" value="Default" />
       <updated>1686560896660</updated>
     </task>
+    <task id="LOCAL-00001" summary="初始化">
+      <created>1686570529566</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686570529567</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始化" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
