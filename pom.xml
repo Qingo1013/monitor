@@ -96,6 +96,11 @@
       <artifactId>mybatis-plus-boot-starter</artifactId>
       <version>3.5.2</version>
     </dependency>
+    <dependency>
+      <groupId>org.mybatis.generator</groupId>
+      <artifactId>mybatis-generator-core</artifactId>
+      <version>1.4.0</version>
+    </dependency>
     <!--mybatis-plus代码生成器-->
     <dependency>
       <groupId>com.baomidou</groupId>
@@ -217,7 +222,31 @@
 
 
   </dependencies>
+
   <build>
     <finalName>monitor</finalName>
+    <plugins>
+      <plugin>
+        <groupId>org.mybatis.generator</groupId>
+        <artifactId>mybatis-generator-maven-plugin</artifactId>
+        <version>1.4.0</version>
+        <executions>
+          <execution>
+            <id>Generate MyBatis Artifacts</id>
+            <goals>
+              <goal>generate</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <!-- 输出详细信息 -->
+          <verbose>true</verbose>
+          <!-- 覆盖生成文件 -->
+          <overwrite>true</overwrite>
+          <!-- 定义配置文件 -->
+          <configurationFile>${basedir}/src/main/resources/generatorConfig.xml</configurationFile>
+        </configuration>
+      </plugin>
+    </plugins>
   </build>
 </project>
