@@ -20,7 +20,7 @@
                             targetProject="src/main/java"/>
         <javaClientGenerator targetPackage="cn.qqa.monitor.mapper"
                              targetProject="src/main/java"/>
-        <table tableName="platfrom" domainObjectName="Platform"/>
+        <table tableName="platform" domainObjectName="Platform"/>
 
     </context>
 </generatorConfiguration>
