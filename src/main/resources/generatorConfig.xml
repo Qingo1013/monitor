@@ -20,7 +20,12 @@
                             targetProject="src/main/java"/>
         <javaClientGenerator targetPackage="cn.qqa.monitor.mapper"
                              targetProject="src/main/java"/>
-        <table tableName="platform" domainObjectName="Platform"/>
+<!--        <table tableName="platform" domainObjectName="Platform"/>-->
+        <table tableName="activity" domainObjectName="Activity"/>
+        <table tableName="dynamic_nft_task" domainObjectName="DynamicNftTask"/>
+        <table tableName="risk_nft" domainObjectName="RiskNft"/>
+        <table tableName="rule" domainObjectName="Rule"/>
+
 
     </context>
 </generatorConfiguration>

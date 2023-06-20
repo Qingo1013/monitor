@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a01d0f35-7eba-4c2a-bac2-124973c907b2" name="Changes" comment="初始化">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/qqa/monitor/entity/Platform.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/qqa/monitor/mapper/PlatformDynamicSqlSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/qqa/monitor/mapper/PlatformMapper.java" afterDir="false" />
+    <list default="true" id="a01d0f35-7eba-4c2a-bac2-124973c907b2" name="Changes" comment="mybatis-generator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,12 +125,20 @@
       <option name="project" value="LOCAL" />
       <updated>1687165861780</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="mybatis-generator">
+      <created>1687225814358</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687225814358</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化" />
+    <MESSAGE value="mybatis-generator" />
+    <option name="LAST_COMMIT_MESSAGE" value="mybatis-generator" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
